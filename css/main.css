@@ -28,6 +28,7 @@ header {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 1em; 
+  align-items: center;
 }
 
 /* logo img */
@@ -35,6 +36,7 @@ header {
   height: 90px;
   width: auto;
   margin-right: auto;
+  vertical-align: center;
 }
 
 .header-text {
@@ -101,10 +103,22 @@ hr {
   .project {
     width: 45%;
   }
+
+  h1 {
+    font-size: 1.7em;
+  }
 }
 
 @media screen and (max-width: 540px) {
   .project {
     width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .logo {
+    height: 50px;
   }
 }
